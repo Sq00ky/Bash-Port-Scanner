@@ -9,7 +9,7 @@ chmod +x ./spookyscan.sh
 ```
 Example: 
 ```
-root@Sp00kySec:~/Scripts# ./port_scanner.sh -i 192.168.1.1 -p 1024                                                                                                                                                                                                             Port 53 is open
+root@Sp00kySec:~/Scripts# ./spookyscan.sh -i 192.168.1.1 -p 1024                                                                                                                                                                                                             Port 53 is open
 Port 80 is open
 Port 139 is open
 Port 443 is open
