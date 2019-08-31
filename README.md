@@ -1,6 +1,6 @@
 # Hello Everyone!
 Welcome to my first major bash scripting project, a simple bash port scanner!
-the concept is fairly simple, connections are made with /dev/tcp/<ip>/<port>, if the port is open, it will print it out to the terminal. If closed, the output will be redirected to /dev/null!
+the concept is fairly simple, connections are made with /dev/tcp/ip/port, if the port is open, it will print it out to the terminal. If closed, the output will be redirected to /dev/null!
 I may add a switch for UDP at a later date, it should be fairly simple.
 # Usage:
 ```
