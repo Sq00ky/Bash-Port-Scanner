@@ -21,5 +21,5 @@ if [[ $ports == $empty ]]; then
 fi
 #Scans ports/Dumps closed ports/displays open ports
 for i in $(seq 1 $ports); do
-	( echo > /dev/tcp/$ip/$i) > /dev/null 2>&1 && echo "Port" $i "is open";
+	( echo > /dev/tcp/$ip/$i) > /dev/null 2>&1 && echo $ip":"$i "is open";
 done
